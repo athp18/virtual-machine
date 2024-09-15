@@ -8,7 +8,7 @@ int main() {
     // Create a virtual machine with 1024 bytes each for stack, heap, and static memory
     VirtualMachine vm(1024, 1024, 1024);
 
-    // Define opcodes for our program
+    // Opcodes
     std::vector<std::string> opcodes = {
         // Main program
         "PUSH", "ALLOC",    // Allocate memory for the array
